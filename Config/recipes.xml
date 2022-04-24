@@ -6,11 +6,5 @@
 	<ingredient name="resourceElectricParts" count="3"/>
 
 </recipe>
-<recipe name="soundbar1" count="1" craft_area="workbench" tags="">
-	<ingredient name="resourceForgedIron" count="4"/>
-	<ingredient name="resourceElectricParts" count="3"/>
-
-</recipe>
-
 </append>
  </configs>

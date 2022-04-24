@@ -4,6 +4,6 @@
 		<Name value="LHG Dancing" />
 		<Description value="Everyone dances" />
 		<Author value="sLimLong" />
-		<Version value="0.0.1" compat="20.3" />
+		<Version value="0.0.2" compat="20.3" />
 	</ModInfo>
 </xml>

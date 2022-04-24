@@ -5,7 +5,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="Class" value="Speaker"/>
 	<property name="UnlockedBy" value="perkAdvancedEngineering,speakerSchematic"/>
-	<property name="PlaySound" value="twitch_dance_off"/>
+	<property name="PlaySound" value="LHG_Dance1"/>
 	<property name="Material" value="Mmetal_weak"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="Entities/Electrical/loudspeakerPrefab"/>
@@ -29,36 +29,6 @@
 	<property name="FilterTags" value="MC_playerBlocks,SC_electrical"/>
 	<property name="SortOrder1" value="70a0"/>
 </block>
-<block name="soundbar1">
-        <property name="CustomIcon" value="controlPanelBase01"/>
-	<property name="CreativeMode" value="Player"/>
-	<property name="Class" value="Speaker"/>
-	<property name="UnlockedBy" value="perkAdvancedEngineering,speakerSchematic"/>
-	<property name="PlaySound" value="twitch_party"/>
-	<property name="Material" value="Mmetal_weak"/>
-	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="Entities/Electrical/loudspeakerPrefab"/>
-	<property name="HandleFace" value="South"/>
-	<property name="ImposterDontBlock" value="true"/>
-	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-	<property name="RequiredPower" value="5"/>
-	<property name="DisplayType" value="blockElectrical"/>
-	<property name="Group" value="Science"/>
-	<property class="RepairItems">
-		<property name="resourceForgedIron" value="3"/>
-		<property name="resourceElectricParts" value="2"/>
-	</property>
-	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
-	<drop event="Harvest" name="resourceElectricParts" count="0,2" tag="salvageHarvest"/>
-	<drop event="Harvest" name="resourceScrapIron" count="5,10" tag="allHarvest"/>
-	<drop event="Destroy" count="0"/>
-	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
-	<property name="TakeDelay" value="5"/>
-	<property name="EconomicValue" value="72"/>
-	<property name="FilterTags" value="MC_playerBlocks,SC_electrical"/>
-	<property name="SortOrder1" value="70a0"/>
-</block>	
-
 	</append>
 </configs>
 

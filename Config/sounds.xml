@@ -1,0 +1,16 @@
+<configs>
+
+<append xpath="/Sounds">
+    <SoundDataNode name="LHG_Dance1">
+        <AudioSource name="Sounds/AudioSource_Twitch_High"/>
+        <AudioClip ClipName="Sounds/Twitch/twitch_dance_off" Loop="true"/>
+        <LocalCrouchVolumeScale value="1.0"/>
+	<LocalCrouchVolumeScale value="1.0"/> 
+	<CrouchNoiseScale value="0.5"/> 
+	<NoiseScale value="1"/> 
+	<MaxVoices value="10"/> 
+	<MaxRepeatRate value="0"/>
+    </SoundDataNode>
+
+</append>
+ </configs>
